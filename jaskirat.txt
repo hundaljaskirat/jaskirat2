@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>My Family Book</title>
+</head>
+<body>
+    
+<center>
+  <h1>My Family Book</h1>
+    <p>
+<img id="album" src="https://images-na.ssl-images-amazon.com/images/I/51KNpAKei-L.jpg">
+ <div>
+        <button type="button" onclick="nextslide()"> Next </button>
+ </div>
+  <p id="reasontext">My Family Book</p>
+  </center>
+  <script>
+      
+var reasons = [
+  "Tejpal singh ",
+  "Jaskirat singh",
+  "Jesrat singh",
+  "Gurjinder kaur",
+
+
+  
+
+];
+var images = [
+ C:\Users\Win-10\OneDrive\Desktop\tej.jpg,
+ C:\Users\Win-10\OneDrive\Desktop\jaskirat.JPG,
+ F:\Old Hdd Backup\D Drive\trip rajasthan 2018\103APPLE\IMG_3005.JPG,
+ F:\Old Hdd Backup\D Drive\all ph  otos\anandpur sahib 3jan2015\20150104_103853.jpg,
+
+
+
+var i = 0;
+function nextslide() {  document.getElementById("reasontext").innerHTML = reasons[i];
+  document.getElementById("album").src = images[i];
+  i++;
+                      document.getElementById("audio").play();
+ 
+}
+
+
+
+
+  </script>
+</body>
+
+</html>
